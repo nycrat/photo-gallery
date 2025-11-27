@@ -5,18 +5,18 @@ const Navbar = (): JSX.Element => {
 
   return (
     <nav className="navbar">
-      <a href="/photo-gallery/#/" onClick={() => setDropdown(false)}>
+      <a href="/#/" onClick={() => setDropdown(false)}>
         Photo Galleries
       </a>
       <span className={dropdown ? "dropdown active" : "dropdown"}>
-        {/* <a href="/photo-gallery/#/gallery/albumDB" onClick={() => setDropdown(false)}>Albums</a> */}
+        {/* <a href="/#/gallery/albumDB" onClick={() => setDropdown(false)}>Albums</a> */}
         <a
-          href="/photo-gallery/#/gallery/Photos"
+          href="/#/gallery/Photos"
           onClick={() => setDropdown(false)}
         >
           Photos
         </a>
-        {/* <a href="/photo-gallery/#/admin" onClick={() => setDropdown(false)}>Admin</a> */}
+        {/* <a href="/#/admin" onClick={() => setDropdown(false)}>Admin</a> */}
       </span>
       <span
         className="nav-dropdown-icon"

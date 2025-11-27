@@ -10,7 +10,7 @@ const Image = (props: {
       className={"image " + imageSizeToString(props.size)}
       src={
         !props.src
-          ? "/photo-gallery/loading.png"
+          ? "/loading.png"
           : `data:image/jpeg;base64,${props.src}`
       }
       alt="temp"

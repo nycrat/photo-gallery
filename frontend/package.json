@@ -1,6 +1,5 @@
 {
-  "name": "frontend",
-  "homepage": "https://nycrat.github.io/photo-gallery",
+  "name": "photo-gallery-site",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -46,7 +45,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0",
     "sass": "^1.54.0"
   }
 }
